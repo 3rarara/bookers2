@@ -4,12 +4,12 @@
 
 <%= form_with model:Book.new do |f| %>
 
-  <p>title</p>
+  <p>Title</p>
   <%= f.text_field :title %>
 
-  <p>opinion</p>
+  <p>Opinion</p>
   <%= f.text_area :body %>
 
-  <%= f.submit 'Creat Book', class: "btn btn-success" %>
+  <%= f.submit 'Create Book', class: "btn btn-success" %>
 
 <% end %>
